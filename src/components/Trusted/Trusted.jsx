@@ -8,7 +8,7 @@ const Trusted = () => {
   return (
     <>
       <section className="my-14 max-w-[1120px] mx-auto">
-        <div>
+        <div className="py-[60px]">
           <div className="">
             <p className="title text-gray-600 text-center text-base font-normal leading-6">
               Trusted by 45M+ users

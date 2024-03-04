@@ -2,7 +2,7 @@ import { TbWorld } from "react-icons/tb";
 import { IoIosArrowDown } from "react-icons/io";
 
 import Logo from "../../../public/image/logo.png";
-import "./navbar.css";
+import Button from "../common/Button";
 
 const NavBar = () => {
   return (
@@ -41,8 +41,8 @@ const NavBar = () => {
             </li>
             <li>Contact Sales</li>
             <li className="">Login</li>
-            <li className="flex gap-2 items-center px-6 py-4 rounded-full border border-blue-500 bg-blue-500 text-white transition duration-300 ease-in-out hover:bg-transparent hover:text-blue-500">
-              Sign up free <span>→</span>
+            <li>
+              <Button btnName="Sign up free" symbol="→" />
             </li>
           </ul>
         </div>
