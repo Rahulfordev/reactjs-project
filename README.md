@@ -3,6 +3,7 @@
 ## Technologies Used
 
 - React
+- React Hook
 - React-icon
 - Tailwind CSS
 
