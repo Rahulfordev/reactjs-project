@@ -12,7 +12,7 @@ import WorkWays from "../../components/WorkWays/WorkWays";
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <NavBar />
       <Header />
       <Trusted />

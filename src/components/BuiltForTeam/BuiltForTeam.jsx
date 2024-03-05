@@ -7,11 +7,11 @@ const BuiltForTeam = () => {
   return (
     <section className="my-14 max-w-[1120px] mx-auto p-[30px]">
       <div>
-        <h2 className="text-gray-900 text-4xl font-bold leading-14 tracking-tight">
+        <h2 className="text-gray-900 text-4xl text-center lg:text-left font-bold leading-14 tracking-tight">
           Built for the way you work
         </h2>
 
-        <ul className="flex items-center gap-2 pt-8 text-sm">
+        <ul className="flex flex-wrap items-center gap-2 pt-8 text-sm">
           <li className="rounded-3xl border border-gray-200 bg-blue-100 px-4 py-3 cursor-pointer">
             Brainstorming
           </li>
@@ -35,7 +35,7 @@ const BuiltForTeam = () => {
           </li>
         </ul>
       </div>
-      <div className="flex mt-7 justify-between">
+      <div className="flex mt-7 justify-center lg:justify-between flex-wrap">
         <div className="max-w-[360px]">
           <p className="text-gray-600 font-normal text-base leading-6 mt-7 max-w-[302px]">
             <ul>

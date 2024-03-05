@@ -10,16 +10,16 @@ const Header = () => {
   return (
     <>
       <header className="max-w-[1140px] mx-auto my-16">
-        <div className="flex items-center gap-[60px]">
+        <div className="flex flex-col justify-center items-center gap-[30px] px-4 text-center lg:flex-row lg:text-left lg:justify-between lg:px-0">
           <div className="max-w-[440px]">
-            <h2 className="text-gray-900 text-5xl font-bold leading-14 tracking-tight">
-              Take ideas from better to best
+            <h2 className="text-gray-900 text-3xl sm:text-5xl font-bold leading-14 tracking-tight">
+              Take ideas from better to best.
             </h2>
             <p className="text-gray-700 font-normal text-base leading-6 mt-4">
               Miro is your team's visual platform to connect, collaborate, and
               create — together.
             </p>
-            <div className="mt-8">
+            <div className="mt-8 ">
               <input
                 className="flex items-center h-12 px-6 rounded-full border border-gray-300 w-full"
                 type="email"
@@ -45,7 +45,7 @@ const Header = () => {
                   Based on 5149+ reviews:
                 </p>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center gap-3">
                 <img src={Google} alt="Google" />
                 <img src={getApp} alt="getApp" />
                 <img src={Capterra} alt="Capterra" />

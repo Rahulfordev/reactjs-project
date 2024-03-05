@@ -3,12 +3,12 @@ const BuiltWay = () => {
   return (
     <section className="my-14 max-w-[1120px] mx-auto p-[30px]">
       <div>
-        <h2 className="text-gray-900 text-4xl font-bold leading-14 tracking-tight">
+        <h2 className="text-gray-900 text-4xl text-center lg:text-left font-bold leading-14 tracking-tight">
           Built for the way you work
         </h2>
 
-        <ul className="flex items-center gap-2 pt-8 text-sm">
-          <li className="rounded-3xl border border-gray-200 bg-blue-100 px-4 py-3 cursor-pointer">
+        <ul className="flex flex-wrap items-center gap-2 pt-8 text-sm">
+          <li className="rounded-3xl border border-gray-200 bg-blue-100 px-2 text-center py-3 cursor-pointer">
             Brainstorming
           </li>
           <li className="rounded-3xl border border-gray-200 px-4 py-3 cursor-pointer">
@@ -31,7 +31,7 @@ const BuiltWay = () => {
           </li>
         </ul>
       </div>
-      <div className="flex mt-7 justify-between">
+      <div className="flex flex-wrap  mt-7 text-center lg:text-left justify-center lg:justify-between">
         <div className="max-w-[360px]">
           <h4 className="text-lg text-gray-900 font-medium mt-8">
             Brainstorming
@@ -41,7 +41,7 @@ const BuiltWay = () => {
             notes, images, mind maps, videos, drawing capabilities — the list
             goes on.
           </p>
-          <button className="text-blue-500 text-lg flex gap-2 mt-9">
+          <button className="text-blue-500 text-lg flex gap-2 mt-9 mx-auto lg:mx-0">
             <span className="">Learn more</span>
             <span>→</span>
           </button>

@@ -29,8 +29,8 @@ const Teams = () => {
   return (
     <section className="mt-14 mb-28 max-w-[1120px] mx-auto">
       <div>
-        <div>
-          <h2 className="text-gray-900 text-center text-4xl font-bold leading-14 tracking-tight">
+        <div className="px-4">
+          <h2 className="text-gray-900 text-center text-3xl md:text-4xl font-bold leading-14 tracking-tight">
             Loved by the world's best teams
           </h2>
           <div className="flex items-center justify-center mt-6">
@@ -39,16 +39,16 @@ const Teams = () => {
             </button>
           </div>
         </div>
-        <div className="flex mt-20 items-center justify-between">
+        <div className="flex flex-wrap mt-10 lg:mt-20 items-center text-center md:text-left justify-center md:justify-around lg:justify-between">
           {Teams.map((team) => (
             <div key={team.id}>
               <img src={team.image} alt={team.name} />
-              <p className="text-gray-600 text-lg mt-9 max-w-[291px]">
+              <p className="text-gray-600 text-lg mt-6 lg:mt-9 max-w-[291px]">
                 {team.desc}
               </p>
-              <div className="flex items-center gap-3 mt-12">
+              <div className="flex items-center gap-3 mt-12 mb-16 lg:mb-0">
                 <img src={team.member} alt={team.name} />
-                <div>
+                <div className="text-left">
                   <p className="text-gray-600 text-sm">{team.name}</p>
                   <p className="text-gray-600 text-sm">{team.role}</p>
                 </div>

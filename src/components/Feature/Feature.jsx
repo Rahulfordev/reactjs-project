@@ -4,20 +4,20 @@ import Group from "../../../public/image/Group.png";
 const Feature = () => {
   return (
     <>
-      <section className="max-w-[1140px] mx-auto mt-16 mb-16">
+      <section className="max-w-[1140px] mx-auto mt-16 mb-16 px-2">
         <div className="">
           <div className="relative">
-            <img
+            {/* <img
               src={Group}
               alt="Group"
               className="absolute top-[-80px] left-[37.5rem]"
-            />
+            /> */}
 
-            <h2 className="text-gray-900 text-center text-4xl font-bold leading-14 tracking-tight">
+            <h2 className="text-gray-900 text-center text-3xl lg:text-4xl font-bold leading-14 tracking-tight">
               Collaborate without <br /> constraints
             </h2>
           </div>
-          <div className="flex justify-around mt-9">
+          <div className="flex flex-wrap text-center lg:text-left justify-around mt-9">
             <div className="max-w-[314px] flex flex-col gap-[25px] pt-[23px] pl-[24px] pr-[22px] pb-[44px">
               <h4 className="text-gray-900 text-2xl font-bold leading-7">
                 Free forever
