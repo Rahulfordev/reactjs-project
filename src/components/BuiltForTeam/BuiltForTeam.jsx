@@ -3,6 +3,7 @@ import icon1 from "../../../public//image/icon-1.svg";
 import xd from "../../../public//image/xd.png";
 import figma from "../../../public//image/figma.png";
 import noation from "../../../public//image/notation.png";
+import { IoIosCheckmark } from "react-icons/io";
 const BuiltForTeam = () => {
   return (
     <section className="my-14 max-w-[1120px] mx-auto p-[30px]">
@@ -39,16 +40,22 @@ const BuiltForTeam = () => {
         <div className="max-w-[360px]">
           <p className="text-gray-600 font-normal text-base leading-6 mt-7 max-w-[302px]">
             <ul>
-              <li className="mt-4">
-                <span className="mr-3 text-gray-900 font-bold">+</span>
+              <li className="mt-4 flex items-center">
+                <span className="mr-3 text-gray-900 font-bold">
+                  <IoIosCheckmark className="text-[25px]" />
+                </span>
                 Build low-fi wireframes
               </li>
-              <li className="mt-4">
-                <span className="mr-3 text-gray-900 font-bold">+</span>
+              <li className="mt-4 flex items-center">
+                <span className="mr-3 text-gray-900 font-bold">
+                  <IoIosCheckmark className="text-[25px]" />
+                </span>
                 Involve stakeholders in the design <span> </span>process
               </li>
-              <li className="mt-4">
-                <span className="mr-3 text-gray-900 font-bold">+</span>
+              <li className="mt-4 flex items-center">
+                <span className="mr-3 text-gray-900 font-bold">
+                  <IoIosCheckmark className="text-[25px]" />
+                </span>
                 Run engaging design workshops
               </li>
             </ul>

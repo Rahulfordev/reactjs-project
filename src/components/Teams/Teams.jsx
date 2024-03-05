@@ -1,27 +1,35 @@
 /* eslint-disable react/no-unescaped-entities */
+import user1 from "../../../public/image/Testimonial-1.png";
+import user2 from "../../../public/image/Testimonial-2.png";
+import user3 from "../../../public/image/Testimonial-3.png";
+
+import vmware from "../../../public/image/vmware.png";
+import docusign from "../../../public/image/docusign.png";
+import frog from "../../../public/image/frog.png";
+
 const Teams = () => {
   const Teams = [
     {
       id: 1,
-      image: "../../../public/image/vmware.png",
+      image: vmware,
       desc: "“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”",
-      member: "../../../public/image/Testimonial-1.png",
+      member: user1,
       name: "Roxanne Mustafa",
       role: "Design Team Lead at VMware",
     },
     {
       id: 2,
-      image: "../../../public/image/docusign.png",
+      image: docusign,
       desc: "“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”",
-      member: "../../../public/image/Testimonial-2.png",
+      member: user2,
       name: "Jane Ashley",
       role: "Head of Design at DocuSign",
     },
     {
       id: 3,
-      image: "../../../public/image/frog.png",
+      image: frog,
       desc: "“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”",
-      member: "../../../public/image/Testimonial-3.png",
+      member: user3,
       name: "Laura Baird",
       role: "Associate Design Director at frog",
     },

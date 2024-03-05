@@ -14,12 +14,32 @@ const Trusted = () => {
               Trusted by 45M+ users
             </p>
           </div>
-          <div className="flex items-center justify-center flex-wrap mt-12 text-center">
-            <img src={Walmart} alt="walmart" />
-            <img src={cisco} alt="cisco" />
-            <img src={Volvo} alt="Volvo" />
-            <img src={deloitte} alt="deloitte" />
-            <img src={okta} alt="okta" />
+          <div className="flex flex-wrap justify-center md:justify-center mt-12">
+            <img
+              src={Walmart}
+              alt="walmart"
+              className="w-24 h-auto mb-4 md:mb-0 md:w-auto md:mr-4"
+            />
+            <img
+              src={cisco}
+              alt="cisco"
+              className="w-24 h-auto mb-4 md:mb-0 md:w-auto md:mr-4"
+            />
+            <img
+              src={Volvo}
+              alt="Volvo"
+              className="w-24 h-auto mb-4 md:mb-0 md:w-auto md:mr-4"
+            />
+            <img
+              src={deloitte}
+              alt="deloitte"
+              className="w-24 h-auto mb-4 md:mb-0 md:w-auto md:mr-4"
+            />
+            <img
+              src={okta}
+              alt="okta"
+              className="w-24 h-auto mb-4 md:mb-0 md:w-auto md:mr-4"
+            />
           </div>
         </div>
       </section>
