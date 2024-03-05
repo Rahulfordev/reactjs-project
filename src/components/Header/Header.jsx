@@ -9,7 +9,7 @@ import HeaderImg from "../../../public/image/header.png";
 const Header = () => {
   return (
     <>
-      <header className="max-w-[1140px] mx-auto my-16">
+      <header className="max-w-[1140px] mx-auto mb-16 mt-36">
         <div className="flex flex-col justify-center items-center gap-[30px] px-4 text-center lg:flex-row lg:text-left lg:justify-between lg:px-0">
           <div className="max-w-[440px]">
             <h2 className="text-gray-900 text-3xl sm:text-5xl font-bold leading-14 tracking-tight">
