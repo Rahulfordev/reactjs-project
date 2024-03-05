@@ -14,12 +14,12 @@ const Trusted = () => {
               Trusted by 45M+ users
             </p>
           </div>
-          <div className="flex flex-wrap items-center justify-around lg:justify-evenly mt-12">
-            <img src={Walmart} alt="walmart" className="max-w-[100%]" />
-            <img src={cisco} alt="cisco" className="max-w-[100%]" />
-            <img src={Volvo} alt="Volvo" className="max-w-[100%]" />
-            <img src={deloitte} alt="deloitte" className="max-w-[100%]" />
-            <img src={okta} alt="okta" className="max-w-[100%]" />
+          <div className="flex items-center justify-center flex-wrap mt-12 text-center">
+            <img src={Walmart} alt="walmart" />
+            <img src={cisco} alt="cisco" />
+            <img src={Volvo} alt="Volvo" />
+            <img src={deloitte} alt="deloitte" />
+            <img src={okta} alt="okta" />
           </div>
         </div>
       </section>

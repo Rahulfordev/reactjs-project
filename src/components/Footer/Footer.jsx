@@ -54,8 +54,8 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
-            <div className="rounded-[41px] bg-yellow-400 w-[436px] px-9 bg-[url('../../../public/image/certo-dark-yellow.svg')]  bg-no-repeat bg-center py-8">
+          <div className="">
+            <div className="rounded-[41px] bg-yellow-400 md:w-[436px] w-[300px] md:px-9 px-0 bg-[url('../../../public/image/certo-dark-yellow.svg')]  bg-no-repeat bg-center py-8">
               <div className="">
                 <div className="px-6 lg:px-0">
                   <h4 className="text-2xl font-extrabold text-center sm:text-left">
@@ -65,11 +65,11 @@ const Footer = () => {
                     Receive the latest mobile security news, exclusive discounts
                     & offers straight to your inbox!
                   </p>
-                  <div className="flex items-center justify-center mt-9">
+                  <div className="flex items-center justify-center mt-5 md:mt-9">
                     <input
                       type="email"
                       placeholder="Email address"
-                      className="py-2 pr-0 pl-4 md:px-4 md:pr-0 md:pl-0 rounded-l-3xl"
+                      className="py-2 pr-0 w-40 md:w-full pl-4 md:px-4 md:pr-0 rounded-l-3xl"
                     />
                     <button className="bg-indigo-900 px-4 md:px-7 py-2 text-white font-extrabold rounded-r-3xl">
                       Submit
